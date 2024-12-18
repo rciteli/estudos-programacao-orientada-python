@@ -38,8 +38,11 @@ class Restaurante:
         self._ativo = not self._ativo
 
     def receber_avaliacao(self, cliente, nota):
-        avaliacao = Avaliacao(cliente, nota)
-        self._avaliacao.append(avaliacao)
+        if 0 < nota <= 5:
+            avaliacao = Avaliacao(cliente, nota)
+            self._avaliacao.append(avaliacao)
+        else:
+            print('A nota deve estar entre 1 e 5')
 
     @property
     def media_avaliacoes(self):

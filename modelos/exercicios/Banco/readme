@@ -1,0 +1,24 @@
+README
+
+Este diretório contém os arquivos principais do sistema bancário.
+
+Arquivos
+
+banco.py: Define a classe Banco que representa um banco com métodos para listar agências e realizar operações bancárias.
+agencia.py: Define uma classe Agencia que representa uma agência bancária com métodos para realizar operações bancárias.
+app.py: O arquivo principal do aplicativo que utiliza as classes Banco e Agencia para realizar operações bancárias.
+Funcionalidades
+
+Listar agências bancárias
+Realizar operações bancárias (depósitos, saques, etc.)
+Uso
+
+Para utilizar o sistema bancário, basta executar o arquivo app.py e seguir as instruções exibidas na tela.
+
+Requisitos
+
+Python 3.x
+Bibliotecas padrão do Python
+Contribuições
+
+Contribuições são bem-vindas! Se você encontrar algum erro ou tiver alguma sugestão, por favor, abra uma issue ou faça um pull request.

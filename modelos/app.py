@@ -1,16 +1,15 @@
-from restaurante import Restaurante
 
-restaurante_praca = Restaurante('Praça', 'Gourmet')
-restaurante_praca.receber_avaliacao('João', 5)
-restaurante_praca.receber_avaliacao('Maria', 4)
-restaurante_praca.receber_avaliacao('Pedro', 3)
-restaurante_praca.receber_avaliacao('Ana', 4)
-restaurante_praca.receber_avaliacao('Carlos', 5)
+from cardapio.bebida import Bebida
+from cardapio.prato import Prato
 
+
+bebida_suco = Bebida('Suco de Melancia', 5, 500)
+prato_pao = Prato('Pão de Frango com Catupiry', 10, 'O melhor lanche da cidade!')
 
 # Define a função main
 def main():
-    Restaurante.listar_restaurantes()
+    print(bebida_suco)
+    print(prato_pao)
 
 # Chama a função main
 if __name__ == '__main__':
